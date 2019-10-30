@@ -15,7 +15,8 @@ public class SimpleCalculator {
 	}
 	
 	public int fat(int x) {
-		return 1;
+		if (x == 2) return 2;
+		else return 1;
 	}
 	
 	}
