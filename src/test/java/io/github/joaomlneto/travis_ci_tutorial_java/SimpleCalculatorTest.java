@@ -26,4 +26,13 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.div(8, 2), 4);
 	}
+	
+	@Test
+	public void fatorialDeO(){
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.fat(0), 1);
+		
+		
+	}
+	
 }
