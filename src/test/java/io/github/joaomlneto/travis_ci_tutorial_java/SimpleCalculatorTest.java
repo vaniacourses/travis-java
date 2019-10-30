@@ -32,7 +32,12 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.fat(0), 1);
 		
-		
+	}
+	
+	@Test
+	public void fatorialDeDois() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.fat(2), 2);		
 	}
 	
 }
